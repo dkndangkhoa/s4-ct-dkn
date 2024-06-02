@@ -1,0 +1,867 @@
+
+/*--------------- basic styling --------------- */
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: "Roboto Mono" !important;
+      background: white !important;
+      color: #000033 !important;
+}
+
+.whitespace {
+      width: 100%;
+      height: 100px;
+}
+
+@media(max-width: 768px) {
+      .whitespace {
+            display: none;
+      }
+}
+
+/*--------------- typewriter effect --------------- */
+.line {
+      width: 24em;
+      top: 50%;
+      margin: auto;
+      border-right: 2px solid #000033;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+}
+
+.anim-typewriter {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 18em;
+      }
+}
+
+@media(max-width: 768px) {
+      @keyframes typewriter {
+            from {
+                  width: 0;
+            }
+            to {
+                  width: 17em;
+            }
+      }
+}
+
+@keyframes blinkTextCussor {
+      from {
+            border-right-color: #000033;
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+/*--------------- navigation --------------- */
+nav {
+      width: 100%;
+      background: white;
+      height: 80px;
+      position: fixed;
+      z-index: 1;
+}
+
+nav #brand {
+      float: left;
+      display: block;
+      margin-left: 82px;
+      line-height: 80px;
+      font-weight: bold;
+}
+
+nav #brand img {
+      max-width: 70px;
+}
+
+nav #brand a {
+      color: #000033;
+      transition: all 0.3s ease-out;
+}
+
+nav #brand a:hover {
+      text-decoration: none;
+}
+
+nav #menu {
+      float: left;
+      right: 80px;
+      position: fixed;
+}
+
+nav #menu li {
+      padding-left: 40px;
+      display: inline-block;
+      cursor: pointer;
+      font-weight: 300;
+      line-height: 80px;
+      position: relative;
+      transition: all 0.3s ease-out;
+}
+
+nav #menu li span {
+      font-weight: 700;
+}
+
+nav #menu li a {
+      color: #000033;
+}
+
+nav #menu li a:hover {
+      text-decoration: none;
+      color: #999999;
+      transition: all 0.2s linear 0s;
+      opacity: 1;
+}
+
+#toggle {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      font-weight: 300;
+      z-index: 2;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      float: right;
+      transition: all 0.3s ease-out;
+      visibility: hidden;
+      opacity: 0;
+}
+
+.close-btn {
+      position: absolute;
+      right: 16px;
+      font-weight: 300;
+      z-index: 2;
+      cursor: pointer;
+      top: -2px;
+      line-height: 80px;
+}
+
+#resize {
+      z-index: 1;
+      top: 0px;
+      position: fixed;
+      background: #000033;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 1s ease-out;
+}
+
+#resize #menu {
+      height: 90px;
+      position: absolute;
+      left: 45%;
+      transform: translateX(-40%);
+      text-align: center;
+      display: table-cell;
+      vertical-align: center;
+}
+
+#resize #menu li {
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 50px;
+      min-height: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1) {
+      margin-top: 140px;
+}
+
+#resize #menu li a {
+      color: #fff;
+}
+
+#resize #menu li a:hover {
+      text-decoration: none;
+}
+
+#resize.active {
+      visibility: visible;
+      opacity: 1;
+}
+
+@media(max-width: 768px) {
+      #toggle {
+            visibility: visible;
+            opacity: 1;
+            margin-top: 6px;
+            margin-right: 4px;
+      }
+
+      nav #brand {
+            margin-left: 24px;
+      }
+
+      #menu a {
+            font-size: 20px;
+            font-weight: 300;
+      }
+
+      #resize li span {
+            font-weight: bolder;
+      }
+
+      nav #menu {
+            display: none;
+      }
+}
+
+@media(min-width: 768px) {
+      #resize {
+            visibility: hidden !important;
+      }
+}
+
+/*--------------- hero section --------------- */
+.hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.hero h1 {
+      font-weight: lighter;
+      text-align: center;
+      letter-spacing: -2px;
+      line-height: 58px;
+}
+
+@media(max-width: 768px) {
+      .header h1 {
+            font-size: 26px;
+      }
+}
+
+/*--------------- scroll down icon animation --------------- */
+.scroll-down {
+      position: absolute;
+      left: 50%;
+      bottom: 100px;
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      z-index: 0;
+      text-decoration: none;
+      text-shadow: 0;
+      width: 33px;
+      height: 33px;
+      border-bottom: 1px solid #000033;
+      border-right: 1px solid #000033;
+      -webkit-transform: translate(-50%, 0) rotate(45deg);
+      animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+}
+
+@keyframes fade_move_down {
+      0% {
+            transform: translate(0, -20px) rotate(45deg);
+            opacity: 0;
+      }
+      50% {
+            opacity: 1;
+      }
+      100% {
+            transform: translate(0, 20px) rotate(45deg);
+            opacity: 0;
+      }
+}
+
+/*--------------- projects section --------------- */
+h6 {
+      text-align: center;
+}
+
+.vertical {
+      margin-top: 40px;
+      border-left: 1px solid #000033;
+      height: 80px;
+      position: absolute;
+      left: 50%;
+}
+
+.project {
+      height: 500px;
+}
+
+.project1 {
+      background: url(./images/DKN.JPG) no-repeat 50% 50%;
+      background-size: cover;
+      filter:grayscale(20%) ;
+      cursor: pointer;
+}
+
+.project1::after {
+      content: "DKN.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -58%;
+      right: 0;
+      bottom: 0;
+}
+
+.project2 {
+      background: url(https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project2::after {
+      content: "Vision.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: 110%;
+      right: 0;
+      bottom: 0;
+}
+
+.project3 {
+      background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project3::after {
+      content: "Projects.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -50%;
+      right: 0;
+      bottom: 0;
+}
+
+.project4 {
+      background: url(https://plus.unsplash.com/premium_photo-1675644727129-9e2fbc03c500?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project4::after {
+      content: "Personal growth.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: 110%;
+      right: 0;
+      bottom: 0;
+}
+
+.project5 {
+      background: url(https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      filter:grayscale(20%) ;
+      cursor: pointer;
+}
+
+.project5::after {
+      content: "Workshops.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -58%;
+      right: 0;
+      bottom: 0;
+}
+
+.project6 {
+      background: url(https://images.unsplash.com/photo-1470224114660-3f6686c562eb?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      filter:grayscale(20%) ;
+      cursor: pointer;
+}
+
+.project6::after {
+      content: "Smark Parking.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -58%;
+      right: 0;
+      bottom: 0;
+}
+
+.project7 {
+      background: url(https://images.unsplash.com/photo-1692369584496-3216a88f94c1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project7::after {
+      content: "Irrigation System.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: 110%;
+      right: 0;
+      bottom: 0;
+}
+
+.project8 {
+      background: url(https://images.unsplash.com/flagged/photo-1569660970816-9e2217c20ac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project8::after {
+      content: "Laser Maze.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -50%;
+      right: 0;
+      bottom: 0;
+}
+
+.project9 {
+      background: url(https://images.unsplash.com/photo-1635399860495-2a2802a6df5e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project9::after {
+      content: "Hologram.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: 110%;
+      right: 0;
+      bottom: 0;
+}
+
+@media(max-width: 768px) {
+      .project {
+            width: 90% !important;
+            margin: 14px auto;
+      }
+
+      .vertical {
+            display: none;
+      }
+
+      .project1::after, .project2::after, .project3::after, .project4::after {
+            display: none;
+      }
+}
+
+/*--------------- footer section --------------- */
+.collab {
+      text-align: right;
+}
+
+.collab p {
+      font-weight: lighter !important;
+      margin-bottom: 20px;
+}
+
+.hr {
+      background: #000033;
+      height: 1px;
+}
+
+.info h4 {
+      font-size: 18px;
+      font-weight: lighter;
+}
+
+.info p {
+      color: grey;
+      font-weight: lighter;
+}
+
+.info li {
+      font-weight: lighter;
+      color: #000033;
+      font-size: 18px;
+      padding-left: 20px;
+}
+
+#fb::before {
+      display: inline-block;
+      content: '';
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: #3b5998;
+}
+
+
+#ig::before {
+      display: inline-block;
+      content: '';
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: #fcaf45;
+}
+
+
+#tw::before {
+      display: inline-block;
+      content: '';
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: #55acee;
+}
+
+
+#yt::before {
+      display: inline-block;
+      content: '';
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: #c4302b;
+}
+
+#media, #address {
+      text-align: right;
+}
+
+#media ul {
+      list-style: none;
+}
+
+#media ul li {
+      display: inline-block;
+}
+
+@media(max-width: 768px) {
+      .collab, #personal, #media, #address {
+            text-align: center;
+      }
+
+      .info ul {
+            margin: 0 0 0 -22px;
+            padding: 0;
+      }
+}
+
+/*--------------- work page --------------- */
+
+.hero-content {
+      margin-left: 0%;
+}
+
+.hero-content h1 {
+      font-size: 60px;
+}
+
+.hero-content h2 {
+      font-size: 40px;
+}
+
+.hero-content h3 {
+      font-size: 20px;
+}
+
+.hero-content p {
+      font-weight: 300;
+      line-height: 36px;
+      color: #000033;
+}
+
+.hero-content h6 {
+      text-align: left;
+}
+
+@media(max-width: 768px) {
+      .hero-content {
+            padding-top: 50px;
+            width: 96%;
+            margin: 0 auto;
+      }
+}
+
+/*---------------about page --------------- */
+
+.about {
+      height: 500px;
+      margin-top: 120px;
+}
+
+.image {
+      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+}
+
+/*--------------- contact form --------------- */
+
+#contact-form {
+      margin: 5% 1.4%;
+}
+
+#contact-form ul {
+      list-style: none;
+      border-radius: 5px;
+      margin-bottom: 40px;
+}
+
+#contact-form li {
+      padding: 10px;
+}
+
+#contact-form li:last-of-type {
+      border-bottom: none;
+}
+
+#contact-form label {
+      display: block;
+      font-size: .8em;
+      color: #999;
+      padding-left: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      resize: vertical;
+      background: transparent;
+      color: #000033;
+      font-weight: bolder;
+}
+
+input:focus {
+      outline: none;
+      border: none;
+}
+
+textarea:focus {
+      outline: none;
+      border: none;
+}
+
+.textarea {
+      border-bottom: 1px solid #dfdfdf;
+}
+
+.send {
+      margin-left: 50px;
+      text-transform: uppercase;
+      padding: 20px 30px;
+      background: transparent;
+      color: #dfdfdf;
+      font-size: 14px;
+      letter-spacing: 2px;
+}
+
+.send:hover {
+      background: #dfdfdf;
+      color: #101010;
+}
+
+@media(max-width: 768px) {
+      #contact-form {
+            margin: 5% -8%;
+            width: 98%;
+      }
+}
+
+/*--------------- project page --------------- */
+
+.prev, .next p {
+      color: grey;
+}
+
+.prev p {
+      text-align: left;
+}
+
+.next p {
+      text-align: right;
+}
+
+/*---------------client page --------------- */
+
+.clientimg1 {
+      background: url(./images/client/client1.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.clientimg2 {
+      background: url(./images/client/client2.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.clientimg3 {
+      background: url(./images/client/client3.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.clientimg4 {
+      background: url(./images/client/client4.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.plan1 {
+      background: url(./images/client/plan1.png) no-repeat;
+      background-size: cover;
+}
+
+.plan2 {
+      background: url(./images/client/plan2.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.clientimg5 {
+      background: url(./images/client/client5.jpg) no-repeat;
+      background-size: cover;
+}
+
+.clientimg6 {
+      background: url(./images/client/client6.png) no-repeat;
+      background-size: cover;
+}
+
+.clientimg7 {
+      background: url(./images/client/client7.png) no-repeat;
+      background-size: cover;
+}
+
+.clientimg8 {
+      background: url(./images/client/client8.jpg) no-repeat;
+      background-size: cover;
+}
+
+.clientimg9 {
+      background: url(./images/client/client9.png) no-repeat;
+      background-size: cover;
+}
+
+.clientimg10 {
+      background: url(./images/client/client10.JPEG) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.clientimg11 {
+      background: url(./images/client/client11.jpg) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.clientimg12 {
+      background: url(./images/client/client12.png) no-repeat;
+      background-size: cover;
+}
+
+.clientimg13 {
+      background: url(./images/client/client13.png) no-repeat;
+      background-size: cover;
+}
+
+.clientimg14 {
+      background: url(./images/client/client14.jpg) no-repeat;
+      background-size: cover;
+}
+
+.clientimg15 {
+      background: url(./images/client/client15.jpg) no-repeat;
+      background-size: cover;
+}
+
+.s2c1 {
+      background: url(./images/client/s2c1.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.s2c2 {
+      background: url(./images/client/s2c2.JPEG) no-repeat;
+      background-size: cover;
+}
+
+.s2c3 {
+      background: url(./images/client/s2c3.png) no-repeat;
+      background-size: cover;
+      height: 600px;
+}
+
+.s2c4 {
+      background: url(./images/client/s2c4.png) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.s2c5 {
+      background: url(./images/client/s2c5.png) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.s2c6 {
+      background: url(./images/client/s2c6.png) no-repeat;
+      background-size: cover;
+      height: 600px;
+
+}
+
+.s2c7 {
+      background: url(./images/client/s2c7.jpg) no-repeat;
+      background-size: cover;
+}
+
+.s2c8 {
+      background: url(./images/client/s2c8.jpg) no-repeat;
+      background-size: cover;
+}
+
+.s2c9 {
+      background: url(./images/client/s2c9.JPEG) no-repeat;
+      background-size: cover;
+}
