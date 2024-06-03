@@ -307,14 +307,13 @@ h6 {
 }
 
 .project1 {
-      background: url(./images/DKN.JPG) no-repeat 50% 50%;
+      background: url(./images/DKN-Blue.png) no-repeat 50% 50%;
       background-size: cover;
-      filter:grayscale(20%) ;
       cursor: pointer;
 }
 
 .project1::after {
-      content: "DKN.";
+      content: "About me.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -327,13 +326,13 @@ h6 {
 }
 
 .project2 {
-      background: url(https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project2::after {
-      content: "Vision.";
+      content: "..My Projects";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -346,13 +345,13 @@ h6 {
 }
 
 .project3 {
-      background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project3::after {
-      content: "Projects.";
+      content: "Workshops...";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -365,13 +364,13 @@ h6 {
 }
 
 .project4 {
-      background: url(https://plus.unsplash.com/premium_photo-1675644727129-9e2fbc03c500?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://images.unsplash.com/photo-1600186403905-e08fca68e392?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project4::after {
-      content: "Personal growth.";
+      content: "....Personal development";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -383,54 +382,34 @@ h6 {
       bottom: 0;
 }
 
-.project5 {
-      background: url(https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
-      background-size: cover;
-      filter:grayscale(20%) ;
-      cursor: pointer;
-}
-
-.project5::after {
-      content: "Workshops.";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: #000033;
-      display: block;
-      top: -2%;
-      left: -58%;
-      right: 0;
-      bottom: 0;
-}
-
 .project6 {
-      background: url(https://images.unsplash.com/photo-1470224114660-3f6686c562eb?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://www.post.lu/documents/20125/1106056/smart_parking_jumbotron.jpg) no-repeat 50% 50%;
       background-size: cover;
       filter:grayscale(20%) ;
       cursor: pointer;
 }
 
 .project6::after {
-      content: "Smark Parking.";
+      content: "Smart Parking 🚘";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
       top: -2%;
-      left: -58%;
+      left: -68%;
       right: 0;
       bottom: 0;
 }
 
 .project7 {
-      background: url(https://images.unsplash.com/photo-1692369584496-3216a88f94c1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://media.licdn.com/dms/image/D5612AQHEcUUUk3pEVA/article-cover_image-shrink_720_1280/0/1690946461509?e=2147483647&v=beta&t=yoxc4okcTZv3XtLmvaN9Zp6tIXNDErxH7ZftqWlXqtE) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project7::after {
-      content: "Irrigation System.";
+      content: "🌱 Smart Irrigation";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -443,32 +422,32 @@ h6 {
 }
 
 .project8 {
-      background: url(https://images.unsplash.com/flagged/photo-1569660970816-9e2217c20ac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://eliplay.nl/media/products/Laser-Maze-Family-Entertainment-Centers-ELI-Play.jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project8::after {
-      content: "Laser Maze.";
+      content: "Laser Maze 🖲️";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
       top: -2%;
-      left: -50%;
+      left: -55%;
       right: 0;
       bottom: 0;
 }
 
 .project9 {
-      background: url(https://images.unsplash.com/photo-1635399860495-2a2802a6df5e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://recon.media.clients.ellingtoncms.com/img/photos/2022/02/25/AdobeStock_209626360_ccexpress_t800.jpeg?90232451fbcadccc64a17de7521d859a8f88077d) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project9::after {
-      content: "Hologram.";
+      content: "🩺 Medical Holography";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -637,7 +616,8 @@ h6 {
 }
 
 .image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+      background: url(./images/DKN.JPG) no-repeat 50% 70%;
+      background-size: cover;
 }
 
 /*--------------- contact form --------------- */
@@ -727,6 +707,50 @@ textarea:focus {
       text-align: right;
 }
 
+/*---------------individual page --------------- */
+
+.i1 {
+      background: url(./images/individual/i1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.i2 {
+      background: url(./images/individual/i2.webp) no-repeat;
+      background-size: cover;
+}
+
+.i3 {
+      background: url(./images/individual/i3.png) no-repeat;
+      background-size: cover;
+}
+
+.i4 {
+      background: url(./images/individual/i4.jpg) no-repeat;
+      background-size: cover;
+}
+
+.i5 {
+      background: url(./images/individual/i5.jpeg) no-repeat;
+      background-size: cover;
+}
+
+.i6 {
+      background: url(./images/individual/i6.jpg) no-repeat;
+      background-size: cover;
+}
+
+.i7 {
+      background: url(./images/individual/i7.jpg) no-repeat;
+      background-size: cover;
+}
+
+.i8 {
+      background: url(./images/individual/i8.jpg) no-repeat;
+      background-size: cover;
+}
+
+
+
 /*---------------client page --------------- */
 
 .clientimg1 {
@@ -809,11 +833,13 @@ textarea:focus {
 .clientimg14 {
       background: url(./images/client/client14.jpg) no-repeat;
       background-size: cover;
+      height: 550px;
 }
 
 .clientimg15 {
       background: url(./images/client/client15.jpg) no-repeat;
       background-size: cover;
+      height: 550px;
 }
 
 .s2c1 {
