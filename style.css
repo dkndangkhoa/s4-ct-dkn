@@ -459,6 +459,25 @@ h6 {
       bottom: 0;
 }
 
+.project10 {
+      background: url(https://images.squarespace-cdn.com/content/v1/575c3eec746fb9ca8e92d938/1521786853623-D94LPOLGOAS4O4S5B2X6/Emotional-Design-Don-Norman.jpg?format=1500w) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project10::after {
+      content: "Emotional Design 🖌️";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: -2%;
+      left: -75%;
+      right: 0;
+      bottom: 0;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
@@ -903,4 +922,13 @@ textarea:focus {
       background: url(./images/client/s2c11.jpg) no-repeat;
       background-size: cover;
       height: 550px;
+}
+
+/*---------------workshops page --------------- */
+
+.w1p1 {
+      background: url() no-repeat;
+      background-size: cover;
+      height: 550px;
+
 }
