@@ -310,6 +310,7 @@ h6 {
       background: url(./images/DKN-Blue.png) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project1::after {
@@ -329,6 +330,7 @@ h6 {
       background: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project2::after {
@@ -348,6 +350,7 @@ h6 {
       background: url(https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project3::after {
@@ -367,6 +370,7 @@ h6 {
       background: url(https://images.unsplash.com/photo-1600186403905-e08fca68e392?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project4::after {
@@ -385,8 +389,8 @@ h6 {
 .project6 {
       background: url(https://www.post.lu/documents/20125/1106056/smart_parking_jumbotron.jpg) no-repeat 50% 50%;
       background-size: cover;
-      filter:grayscale(20%) ;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project6::after {
@@ -406,6 +410,7 @@ h6 {
       background: url(https://media.licdn.com/dms/image/D5612AQHEcUUUk3pEVA/article-cover_image-shrink_720_1280/0/1690946461509?e=2147483647&v=beta&t=yoxc4okcTZv3XtLmvaN9Zp6tIXNDErxH7ZftqWlXqtE) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project7::after {
@@ -425,6 +430,7 @@ h6 {
       background: url(https://eliplay.nl/media/products/Laser-Maze-Family-Entertainment-Centers-ELI-Play.jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project8::after {
@@ -444,6 +450,7 @@ h6 {
       background: url(https://recon.media.clients.ellingtoncms.com/img/photos/2022/02/25/AdobeStock_209626360_ccexpress_t800.jpeg?90232451fbcadccc64a17de7521d859a8f88077d) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project9::after {
@@ -463,6 +470,7 @@ h6 {
       background: url(https://images.squarespace-cdn.com/content/v1/575c3eec746fb9ca8e92d938/1521786853623-D94LPOLGOAS4O4S5B2X6/Emotional-Design-Don-Norman.jpg?format=1500w) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
+      border-radius: 50px;
 }
 
 .project10::after {
