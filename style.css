@@ -486,6 +486,86 @@ h6 {
       bottom: 0;
 }
 
+.sprint1 {
+      background: url(https://media.licdn.com/dms/image/C5612AQGuFpsCbG_7jA/article-inline_image-shrink_1000_1488/0/1643182620248?e=1723075200&v=beta&t=GJhOTdCzXEVs2VZd1GiUzmMmkefw7268DUEm6jy411Y) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.sprint1::after {
+      content: "SPRINT 1️⃣";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: 40%;
+      left: -70%;
+      right: 0;
+      bottom: 0;
+}
+
+.sprint2 {
+      background: url(https://img.freepik.com/free-vector/design-process-concept-landing-page_23-2148313670.jpg?w=740&t=st=1719009684~exp=1719010284~hmac=323d5cb6d73fa0ebeca90ae51165cb4c16cd41f0c6729a8d6c5efbec219c425c) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.sprint2::after {
+      content: "SPRINT 2️⃣";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: 45%;
+      left: 140%;
+      right: 0;
+      bottom: 0;
+}
+
+.sprint3 {
+      background: url(https://media.ccmbg.com/tc/2911629413/888622/1603354733) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.sprint3::after {
+      content: "SPRINT 3️⃣";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: 45%;
+      left: -70%;
+      right: 0;
+      bottom: 0;
+}
+
+.sprint4 {
+      background: url(https://t4.ftcdn.net/jpg/06/91/73/29/360_F_691732924_NJ4mKKdscdgnrB5jXbF8dR56BxrBr1Xe.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.sprint4::after {
+      content: "SPRINT 4️⃣";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: 45%;
+      left: 140%;
+      right: 0;
+      bottom: 0;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
