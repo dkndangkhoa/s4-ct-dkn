@@ -320,68 +320,88 @@ h6 {
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
+      top: 45%;
       left: -58%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://neonfox.gr/image/cache/catalog/PRODUCTS11/vision/3-688x688.jpg) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
       border-radius: 50px;
 }
 
 .project2::after {
-      content: "..My Projects";
+      content: "..Vision";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
-      left: 110%;
+      top: 45%;
+      left: 120%;
       right: 0;
       bottom: 0;
 }
 
 .project3 {
-      background: url(https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
       border-radius: 50px;
 }
 
 .project3::after {
-      content: "Workshops...";
+      content: "Projects...";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
-      left: -50%;
+      top: 45%;
+      left: -60%;
       right: 0;
       bottom: 0;
 }
 
 .project4 {
-      background: url(https://images.unsplash.com/photo-1600186403905-e08fca68e392?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background: url(https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
       border-radius: 50px;
 }
 
 .project4::after {
-      content: "....Personal development";
+      content: "....Workshops";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
-      left: 110%;
+      top: 45%;
+      left: 120%;
+      right: 0;
+      bottom: 0;
+}
+
+.project5 {
+      background: url(https://images.unsplash.com/photo-1600186403905-e08fca68e392?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.project5::after {
+      content: "Personal development.....";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #000033;
+      display: block;
+      top: 45%;
+      left: -105%;
       right: 0;
       bottom: 0;
 }
@@ -1144,6 +1164,78 @@ textarea:focus {
       background-size: cover;
       height: 1050px;
 }
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v2 {
+      background: url(./images/vision/v2.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v3 {
+      background: url(./images/vision/v3.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v4 {
+      background: url(./images/vision/v4.png) no-repeat;
+      background-size: cover;
+}
+
+.v5 {
+      background: url(./images/vision/v5.png) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+.v1 {
+      background: url(./images/vision/v1.jpg) no-repeat;
+      background-size: cover;
+}
+
+
 
 /*---------------workshops page --------------- */
 
