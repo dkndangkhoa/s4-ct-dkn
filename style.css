@@ -900,7 +900,47 @@ textarea:focus {
       height: 1060px;
 }
 
+.d4 {
+      background: url(./images/trio/d4.jpg) no-repeat;
+      background-size: cover;
+      height: 750px;
+}
 
+.d1 {
+      background: url(./images/trio/d1.jpg) no-repeat;
+      background-size: cover;
+      height: 750px;
+}
+
+.d0 {
+      background: url(./images/trio/d0.jpg) no-repeat;
+      background-size: cover;
+      height: 750px;
+}
+
+.d3 {
+      background: url(./images/trio/d3.jpg) no-repeat;
+      background-size: cover;
+      height: 780px;
+}
+
+.d2 {
+      background: url(./images/trio/d2.jpeg) no-repeat;
+      background-size: cover;
+      height: 780px;
+}
+
+.d4b {
+      background: url(./images/trio/d4b.jpg) no-repeat;
+      background-size: cover;
+      height: 600px;
+}
+
+.d4c {
+      background: url(./images/trio/d4c.jpg) no-repeat;
+      background-size: cover;
+      height: 600px;
+}
 
 /*---------------client page --------------- */
 
