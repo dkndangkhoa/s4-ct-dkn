@@ -849,31 +849,55 @@ textarea:focus {
 .i3 {
       background: url(./images/individual/i3.png) no-repeat;
       background-size: cover;
+      height: 800px;
 }
 
 .i4 {
-      background: url(./images/individual/i4.jpg) no-repeat;
+      background: url(./images/individual/i4.png) no-repeat;
       background-size: cover;
+      height: 750px;
+}
+
+.id4 {
+      background: url(./images/individual/id4.png) no-repeat;
+      background-size: cover;
+      height: 1850px;
 }
 
 .i5 {
       background: url(./images/individual/i5.jpeg) no-repeat;
       background-size: cover;
+      height: 750px;
 }
 
 .i6 {
-      background: url(./images/individual/i6.jpg) no-repeat;
+      background: url(./images/individual/i6.jpeg) no-repeat;
       background-size: cover;
+      height: 750px;
 }
 
 .i7 {
-      background: url(./images/individual/i7.jpg) no-repeat;
+      background: url(./images/individual/i7.jpeg) no-repeat;
       background-size: cover;
+      height: 1060px;
 }
 
 .i8 {
-      background: url(./images/individual/i8.jpg) no-repeat;
+      background: url(./images/individual/i8.jpeg) no-repeat;
       background-size: cover;
+      height: 1060px;
+}
+
+.i9 {
+      background: url(./images/individual/i9.jpeg) no-repeat;
+      background-size: cover;
+      height: 1060px;
+}
+
+.i10 {
+      background: url(./images/individual/i10.jpg) no-repeat;
+      background-size: cover;
+      height: 1060px;
 }
 
 
