@@ -1139,6 +1139,12 @@ textarea:focus {
       height: 800px;
 }
 
+.s4c20 {
+      background: url(./images/client/s4c20.jpg) no-repeat;
+      background-size: cover;
+      height: 1050px;
+}
+
 /*---------------workshops page --------------- */
 
 .w1p1 {
