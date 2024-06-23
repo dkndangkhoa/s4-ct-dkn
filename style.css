@@ -420,7 +420,7 @@ h6 {
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
+      top: 45%;
       left: -68%;
       right: 0;
       bottom: 0;
@@ -440,7 +440,7 @@ h6 {
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
+      top: 45%;
       left: 110%;
       right: 0;
       bottom: 0;
@@ -460,27 +460,27 @@ h6 {
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
+      top: 45%;
       left: -55%;
       right: 0;
       bottom: 0;
 }
 
 .project9 {
-      background: url(https://recon.media.clients.ellingtoncms.com/img/photos/2022/02/25/AdobeStock_209626360_ccexpress_t800.jpeg?90232451fbcadccc64a17de7521d859a8f88077d) no-repeat 50% 50%;
+      background: url(https://miro.medium.com/v2/resize:fit:1400/0*BtVulQpxoXRHz_H3.png) no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
       border-radius: 50px;
 }
 
 .project9::after {
-      content: "🩺 Medical Holography";
+      content: "🔵 The Future of Holograms";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #000033;
       display: block;
-      top: -2%;
+      top: 45%;
       left: 110%;
       right: 0;
       bottom: 0;
@@ -1347,6 +1347,62 @@ textarea:focus {
       background: url(https://www.yoursummitchurch.com/wp-content/uploads/2015/04/semester3-WEB.png) no-repeat;
 }
 
+
+.hl1 {
+      background: url(https://miro.medium.com/v2/resize:fit:828/format:webp/0*k8Gp9Lxbw-fXoTaJ.png) no-repeat;
+      background-size: cover;
+}
+
+.hl2 {
+      background: url(https://miro.medium.com/v2/resize:fit:828/format:webp/0*WIJllovQyx1ESBdE.png) no-repeat;
+      background-size: cover;
+}
+
+.hl3 {
+      background: url(https://miro.medium.com/v2/resize:fit:1358/0*tQhTVhxbDNdb_l34) no-repeat;
+      background-size: cover;
+}
+
+.hl4 {
+      background: url(https://glukmedia.com/wp-content/uploads/2023/04/5_post_Holograma.webp) no-repeat;
+      background-size: cover;
+}
+
+.hl20 {
+      background: url(./images/passion/hl20.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
+
+.hl21 {
+      background: url(./images/passion/hl21.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
+
+.hl22 {
+      background: url(./images/passion/hl22.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
+
+.hl23 {
+      background: url(./images/passion/hl23.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
+
+.hl24 {
+      background: url(./images/passion/hl24.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
+
+.hl25 {
+      background: url(./images/passion/hl25.JPEG) no-repeat;
+      background-size: cover;
+      height: 720px;
+}
 
 
 
