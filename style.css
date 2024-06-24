@@ -1300,6 +1300,12 @@ textarea:focus {
       height: 1050px;
 }
 
+.qr {
+      background: url(./images/client/qr.png) no-repeat;
+      background-size: cover;
+      height: 1500px;
+}
+
 .v1 {
       background: url(./images/vision/v1.jpg) no-repeat;
       background-size: cover;
@@ -1366,6 +1372,18 @@ textarea:focus {
 .hl4 {
       background: url(https://glukmedia.com/wp-content/uploads/2023/04/5_post_Holograma.webp) no-repeat;
       background-size: cover;
+}
+
+.hl4a {
+      background: url(https://www.holoconnects.com/wp-content/uploads/2023/12/19b35f6b-e5d2-4c00-a0cc-db653cc19754.png) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.hl4b {
+      background: url(https://i.pinimg.com/originals/5a/9f/75/5a9f756b0783458204982883d15d5429.png) no-repeat;
+      background-size: cover;
+      height: 700px;
 }
 
 .hl20 {
