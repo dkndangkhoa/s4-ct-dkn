@@ -1440,6 +1440,66 @@ textarea:focus {
       height: 720px;
 }
 
+.w1 {
+      background: url(https://dunhillmarketresearch.com/wp-content/uploads/2020/12/Workshop.png) no-repeat;
+      background-size: cover;
+}
+
+.w2 {
+      background: url(./images/workshop/w2.jpeg) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.w3 {
+      background: url(./images/workshop/w3.JPEG) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.w4 {
+      background: url(./images/workshop/w4.jpeg) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.w5 {
+      background: url(./images/workshop/w5.png) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.w6 {
+      background: url(./images/workshop/w6.png) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.w7 {
+      background: url(./images/workshop/w7.png) no-repeat;
+      background-size: cover;
+      height: 800px;
+}
+
+.w8 {
+      background: url(./images/workshop/w8.JPEG) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+.w9 {
+      background: url(./images/workshop/w9.JPEG) no-repeat;
+      background-size: cover;
+      height: 650px;
+}
+
+
+
+.w20 {
+      background: url(https://miro.medium.com/v2/resize:fit:1400/1*RqaralGKMcnFWcFbOo2dIQ.png) no-repeat;
+      background-size: cover;
+      height: 600px;
+}
 
 /*---------------workshops page --------------- */
 
